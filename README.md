@@ -14,6 +14,16 @@ python create_llm_dataset.py
 - The dataset is pushed to huggingface, edit the name of the saving file.
 - In this case I saved the dataset in huggingface by the name balaramas/sahikpsir-train (private).
 
+### In order to access private dataset from huggingface Log in huggingface-hub using huggingface access token. use process below:
+
+```bash
+1. pip install --upgrade huggingface_hub
+
+2. huggingface-cli login
+
+#It will ask for your huggingface access token. Enter it by copying from huggingface setting. And then you are logged in.
+```
+
 ## Run the 'train_llm.py' file by specifying the name of the base llm model (in this case it "NousResearch/Llama-2-7b-chat-hf") and the name of the dataset (in this case it was "balaramas/sahikpsir-train" which is the directory name of the dataset saved in huggingface).
 
 ```bash
