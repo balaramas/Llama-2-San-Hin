@@ -6,7 +6,7 @@
 
 ## Data Preprocess 
 
-- Use create_llm_dataset.py to read dataset of MT from csv files in format given in directory "./csv_files/train_sahi.csv" and format to the guanaco dataset format that contains instructions and answers.
+- Run create_llm_dataset.py to read dataset of MT from csv files in format given in directory "./csv_files/train_sahi.csv" and format to the guanaco dataset format that contains instructions and answers.
 - The dataset is pushed to huggingface, edit the name of the saving file.
 - In this case I saved the dataset in huggingface by the name balaramas/sahikpsir-train (private).
 
