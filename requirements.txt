@@ -2,4 +2,3 @@
 
 !pip install -q datasets torch==1.13.0 tensorboardX locale
 
-conda activate llmsahi
