@@ -2,7 +2,7 @@
 
 ## Train LLM to perform machine translation (this repository contains code to format dataset to support training of Llama-2 )
 
-## Install the requirements.txt files for dependencies and libraries
+## Install the requirements.txt files for dependencies and libraries (There can be other dependencies required based on your system).
 
 ## Data Preprocess 
 
